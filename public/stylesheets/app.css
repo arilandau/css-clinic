@@ -1,0 +1,14 @@
+/* CSS goes here */
+.main-title {
+  color: #990100;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: black !important;
+  color: #E0E4CC !important;
+}

@@ -1,0 +1,18 @@
+<div class="text-center">
+<h1><%= @team %></h1>
+</div>
+
+<div class="row">
+  <div class="small-11 columns">
+    <ul>
+      <% @players.each do |player, position| %>
+        <% unless player == :Thumbnail %>
+          <li><%= player %>: <%= position %></li>
+        <% end %>
+      <% end %>
+    </ul>
+  </div>
+</div>
+  <div class="text-center">
+    <a class="hollow button alert" href="/">Home</a>
+  </div>
